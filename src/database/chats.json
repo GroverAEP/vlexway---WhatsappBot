@@ -1,1 +1,29 @@
-    
+{
+  "chats": [
+    {
+      "id": "120363220634467964@g.us",
+      "nombre": "EL Hipódromo camino al GOTY",
+      "status": "allowed"
+    },
+    {
+      "id": "120363404032641551@g.us",
+      "nombre": "General",
+      "status": "allowed"
+    },
+    {
+      "id": "120363278803923652@g.us",
+      "nombre": "familia juguito🧃🧃🧃🧃",
+      "status": "allowed"
+    },
+    {
+      "id": "51960847908-1588007415@g.us",
+      "nombre": "la 💝💖Fam💥Espin. Pruden.💝",
+      "status": "allowed"
+    },
+    {
+      "id": "120363198022112318@g.us",
+      "nombre": "🎮 [𝕲𝖆𝖒𝖊 𝕺𝖋𝖋] 🕹️",
+      "status": "allowed"
+    }
+  ]
+}

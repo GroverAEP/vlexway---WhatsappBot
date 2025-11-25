@@ -4,10 +4,22 @@ export async function flowMenuPrincipal(sock, sender, text) {
         const PREFIX = "!";
         const DisparadoresMenu = [`${PREFIX}menu`, `${PREFIX}m`];
 
-        // Verificar si el texto coincide EXACTAMENTE
-        if (!DisparadoresMenu.includes(text.toLowerCase())) {
-            return; // no mostrar nada si no pidió menú
+        const normalize = (str) => str.trim().toLowerCase() 
+
+        const isTrigger = (text, triggers) => {
+            const normalizeText = normalize(text);
+            return triggers.map(normalize).includes(normalizeText)
         }
+        // triggers.some(t => t.toLowerCase() === text.toLowerCase().trim());
+        
+        if (!isTrigger(text, DisparadoresMenu)) {
+        return;
+        }
+
+        // Verificar si el texto coincide EXACTAMENTE
+        // if (!DisparadoresMenu.includes(text.toLowerCase())) {
+            // return; // no mostrar nada si no pidió menú
+        // }
 
         await sock.sendMessage(sender, {
             text: `👋 *¡Hola! Bienvenido a Mi Bot ${NAME}*  

@@ -1,0 +1,31 @@
+{
+  "owners": [
+    {
+      "idbot": "51928250746:22@s.whatsapp.net",
+      "id": "122050287034452:22@lid",
+      "name": "espino",
+      "status": "free",
+      "role": "owner"
+    },
+    {
+      "idbot": "51928250746:23@s.whatsapp.net",
+      "id": "122050287034452:23@lid",
+      "name": "espino",
+      "status": "free",
+      "role": "owner"
+    },
+    {
+      "idbot": "51928250746:24@s.whatsapp.net",
+      "name": "espino",
+      "status": "free",
+      "role": "owner"
+    },
+    {
+      "idbot": "51928250746:24@s.whatsapp.net",
+      "id": "122050287034452:24@lid",
+      "name": "espino",
+      "status": "free",
+      "role": "owner"
+    }
+  ]
+}

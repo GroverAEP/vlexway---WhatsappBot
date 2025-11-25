@@ -1,4 +1,5 @@
 // src/utils/helpers.js
-const prefix = '.';  // Puedes cambiarlo a ! / etc.
+// const prefix = '.';  // Puedes cambiarlo a ! / etc.
+const PREFIX = "!";
 
-module.exports = { prefix };
+module.exports = { PREFIX };

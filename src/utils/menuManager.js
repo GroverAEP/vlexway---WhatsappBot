@@ -1,7 +1,7 @@
 
 import { flowMenuPrincipal } from '../flows/flowMenuPrincipal.js'
 import { dispatchHandlers } from '../handlers/handlerDispatch.js'
-import { menuOffChat } from './menuOffChatjs';
+import { menuOffChat } from './menuOffChat.js';
 
 
 export async function menuManager(sock,msg,allowedChats) {
